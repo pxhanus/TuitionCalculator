@@ -26,6 +26,8 @@ Partial Class Form1
         Me.lstCourseLevels = New System.Windows.Forms.ListBox()
         Me.lblTuition = New System.Windows.Forms.Label()
         Me.btnCalculate = New System.Windows.Forms.Button()
+        Me.cboCreditHours = New System.Windows.Forms.ComboBox()
+        Me.lblCreditHours = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lblCourseLevelList
@@ -62,11 +64,31 @@ Partial Class Form1
         Me.btnCalculate.Text = "Calculate"
         Me.btnCalculate.UseVisualStyleBackColor = True
         '
+        'cboCreditHours
+        '
+        Me.cboCreditHours.FormattingEnabled = True
+        Me.cboCreditHours.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"})
+        Me.cboCreditHours.Location = New System.Drawing.Point(155, 34)
+        Me.cboCreditHours.Name = "cboCreditHours"
+        Me.cboCreditHours.Size = New System.Drawing.Size(65, 21)
+        Me.cboCreditHours.TabIndex = 4
+        '
+        'lblCreditHours
+        '
+        Me.lblCreditHours.AutoSize = True
+        Me.lblCreditHours.Location = New System.Drawing.Point(152, 18)
+        Me.lblCreditHours.Name = "lblCreditHours"
+        Me.lblCreditHours.Size = New System.Drawing.Size(68, 13)
+        Me.lblCreditHours.TabIndex = 5
+        Me.lblCreditHours.Text = "Credit Hours:"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(242, 148)
+        Me.Controls.Add(Me.lblCreditHours)
+        Me.Controls.Add(Me.cboCreditHours)
         Me.Controls.Add(Me.btnCalculate)
         Me.Controls.Add(Me.lblTuition)
         Me.Controls.Add(Me.lstCourseLevels)
@@ -81,5 +103,7 @@ Partial Class Form1
     Friend WithEvents lstCourseLevels As System.Windows.Forms.ListBox
     Friend WithEvents lblTuition As System.Windows.Forms.Label
     Friend WithEvents btnCalculate As System.Windows.Forms.Button
+    Friend WithEvents cboCreditHours As System.Windows.Forms.ComboBox
+    Friend WithEvents lblCreditHours As System.Windows.Forms.Label
 
 End Class
