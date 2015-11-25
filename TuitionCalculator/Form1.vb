@@ -32,4 +32,8 @@ Public Class Form1
     Private Sub lstCourseLevels_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstCourseLevels.SelectedIndexChanged
         Me.lblTuition.Text = Nothing
     End Sub
+
+    Private Sub cboCreditHours_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboCreditHours.SelectedIndexChanged
+        Me.lblTuition.Text = Nothing
+    End Sub
 End Class

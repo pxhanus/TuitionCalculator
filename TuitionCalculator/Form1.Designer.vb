@@ -37,7 +37,7 @@ Partial Class Form1
         Me.lblCourseLevelList.Name = "lblCourseLevelList"
         Me.lblCourseLevelList.Size = New System.Drawing.Size(72, 13)
         Me.lblCourseLevelList.TabIndex = 0
-        Me.lblCourseLevelList.Text = "Course Level:"
+        Me.lblCourseLevelList.Text = "Course &Level:"
         '
         'lstCourseLevels
         '
@@ -53,15 +53,15 @@ Partial Class Form1
         Me.lblTuition.Location = New System.Drawing.Point(12, 105)
         Me.lblTuition.Name = "lblTuition"
         Me.lblTuition.Size = New System.Drawing.Size(218, 34)
-        Me.lblTuition.TabIndex = 2
+        Me.lblTuition.TabIndex = 5
         '
         'btnCalculate
         '
         Me.btnCalculate.Location = New System.Drawing.Point(155, 67)
         Me.btnCalculate.Name = "btnCalculate"
         Me.btnCalculate.Size = New System.Drawing.Size(75, 23)
-        Me.btnCalculate.TabIndex = 3
-        Me.btnCalculate.Text = "Calculate"
+        Me.btnCalculate.TabIndex = 4
+        Me.btnCalculate.Text = "&Calculate"
         Me.btnCalculate.UseVisualStyleBackColor = True
         '
         'cboCreditHours
@@ -71,7 +71,7 @@ Partial Class Form1
         Me.cboCreditHours.Location = New System.Drawing.Point(155, 34)
         Me.cboCreditHours.Name = "cboCreditHours"
         Me.cboCreditHours.Size = New System.Drawing.Size(65, 21)
-        Me.cboCreditHours.TabIndex = 4
+        Me.cboCreditHours.TabIndex = 3
         '
         'lblCreditHours
         '
@@ -79,8 +79,8 @@ Partial Class Form1
         Me.lblCreditHours.Location = New System.Drawing.Point(152, 18)
         Me.lblCreditHours.Name = "lblCreditHours"
         Me.lblCreditHours.Size = New System.Drawing.Size(68, 13)
-        Me.lblCreditHours.TabIndex = 5
-        Me.lblCreditHours.Text = "Credit Hours:"
+        Me.lblCreditHours.TabIndex = 2
+        Me.lblCreditHours.Text = "Credit &Hours:"
         '
         'Form1
         '
